@@ -46,8 +46,10 @@ function Navbar() {
                         </span>
                     </span> */}
                 </div> : null}
+                <Link to="https://www.instagram.com/maheep__gupta/" target='_blank'>
 
-                <div className='contactButton'><span>Let's Talk</span></div>
+                    <div className='contactButton'><span>Let's Talk</span></div>
+                </Link>
             </div>
 
 
