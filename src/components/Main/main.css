@@ -105,6 +105,9 @@
 
 
 }
+#services-list-section,#conatct-section{
+    padding-top: 0;
+}
 
 .lst-line {
     display: inline-block;
@@ -290,7 +293,7 @@ p hr {
     #intro-section,
     #services-section,
     #projects-section,
-    #workIntresed, .footer-content,#services-list-section,#conatct-section {
+    #workIntresed, .footer-content,#services-list-section,#conatct-section,.webpage {
         padding: 2rem 20px 50px 20px;
     }
     #intro-section{

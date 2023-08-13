@@ -39,10 +39,10 @@ function Projects() {
   ]
   return (
     <>
-      <section id='projects-section'>
+      <section id='projects-section ' className='webpage'>
       <Navbar />
 
-        <div className='title-grp'>
+        <div className='title-grp webpage-tile'>
           <div className='intro project-title'>
             <span>Looks at my </span>
             <span className='intro-title '>
@@ -54,7 +54,7 @@ function Projects() {
             "Explore a showcase of my diverse projects, where front-end creativity meets back-end functionality. Discover innovative solutions and dynamic applications brought to life through my full stack development expertise."
           </div>
         </div>
-        <div className='project-list'>
+        <div className='project-list webpage-list'>
           {projectJson.map((ele, index) => {
             return (
               <div className='project'>

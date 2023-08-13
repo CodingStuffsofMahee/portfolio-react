@@ -1,6 +1,9 @@
 #projects-section {
     background-color: #fff;
 }
+.webpage{
+    padding: 0rem 118px 5rem 118px;
+}
 
 .full-desc span {
     width: inherit;
@@ -33,6 +36,12 @@
 .project{
     height: 420px;
 }
+.webpage-tile{
+    padding-top: 20px;
+}
+.webpage-list{
+    padding-top: 20px;
+}
 
 @keyframes mymove {
     from {
@@ -62,6 +71,9 @@
         font-size: 18px;
         width: 100px;
         height: 40px;
+    }
+    .webpage{
+        padding: 0rem 20px 50px 20px;
     }
     
 
