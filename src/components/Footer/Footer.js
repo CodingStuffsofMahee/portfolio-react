@@ -14,9 +14,9 @@ function Footer() {
                 </div>
                 <div className='footer-nav second-nav'>
                     <div className='footer-content-nav'>
-                        <span>Home</span>
-                        <span>About</span>
-                        <span>Contact</span>
+                    <Link to="/"><span>Home</span></Link>
+                    <Link to="https://blogs-maheep-gupta.hashnode.dev/"> <span>Blog</span></Link>
+                    <Link to="/contact"> <span>Contact</span></Link>
                     </div>
                     <div className='socials'>
                         <Link to="https://www.instagram.com/maheep__gupta/">

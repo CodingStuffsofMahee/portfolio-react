@@ -250,19 +250,7 @@ p hr {
     margin-top: 20px;
 }
 
-.ins-btn {
-    outline: none;
-    border: none;
-    height: 60px;
-    width: 210px;
-    text-transform: uppercase;
-    background-color: #161513;
-    color: #fff;
-    border-radius: 50px;
-    font-size: 20px;
 
-
-}
 .footer hr{
     margin: 0px 118px 0 118px;
     height: 2px;
@@ -278,7 +266,20 @@ p hr {
     padding-bottom: 0;
     margin-bottom: -250px;
 }
-
+.ins-btn {
+    outline: none;
+    border: none;
+    height: 60px;
+    width: 210px;
+    text-transform: uppercase;
+    background-color: #161513;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.ins-btn a{
+    color: #fff;
+}
 @media screen and (max-width:900px) {
     .mainPage-content {
         /* padding-top: 5rem; */
