@@ -1,0 +1,99 @@
+.main-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.sum span {
+    font-size: 20px;
+}
+
+.form-intro-part {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+label {
+    font-size: 20px;
+    line-break: normal;
+    font-weight: 700;
+}
+
+input,textarea {
+    height: 50px;
+    display: block;
+    width:100%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #F0F2F5;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+#email,#amount{
+    background: #F0F2F5 url('./envelope-solid.svg') left no-repeat  ;
+    background-size: 45px 35px;
+    padding-left: 55px;
+    max-width: 100%;
+}
+#amount{
+    background: #F0F2F5 url('./rupee-sign-solid.svg') left no-repeat  ;
+    background-size: 45px 35px;
+}
+textarea{
+    height: 200px;
+    width: 100%;
+}
+.submit-btn{
+    background: -webkit-linear-gradient(180deg, #B16CEA, #E0649C, #FF765F);
+    border: 2px solid #161513;
+    color: #161513 !important;
+    font-weight: 500;
+    border: none;
+    width: 180px;
+    font-size: 17px;
+}
+@media screen and (max-width:900px) {
+    .main-box{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .form-intro-part{
+        width: 100%;
+        gap: 1rem;
+    }
+    .sum span{
+        font-size: 12px;
+    }
+    .get-in-touch span{
+        font-size: 35px;
+    }
+    .form-div{
+        width: 100%;
+    }
+    input{
+        padding-left: 10px;
+        margin-right: 10px;
+        
+    }
+    #email,#amount{
+        background-size: 20px;
+        padding-left: 10px;
+        background: none;
+        background-color: #F0F2F5;
+    }
+    input::placeholder{
+        font-size: 15px;
+    }
+    
+}

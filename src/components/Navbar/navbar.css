@@ -1,0 +1,109 @@
+a{
+    text-decoration: none;
+    color: #161513;
+}
+.navbar {
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0px 118px 0 118px;
+    display: flex;
+    gap: 30px;
+
+}
+
+.navbar-image {
+    font-size: 30px;
+}
+
+.navbar-content {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.contactButton {
+    position: absolute;
+    right: 118px;
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #161513;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contactButton span {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    font-size: 15px;
+}
+
+.ham {
+    display: none;
+    /* position: absolute; */
+    right: 25px;
+    top: 30px;
+}
+
+.mobile {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    z-index: 999;
+    position: absolute;
+    width: 150px;
+    background: #b4b5b6;
+    border-radius: 20px;
+    padding: 10px 0 10px 0;
+    right: 20px;
+    top: 55px;
+    transition: 0.5s;
+    background: -webkit-linear-gradient(45deg, #B16CEA, #E0649C, #FF765F);
+
+}
+
+.main-theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width:900px) {
+    .desktop {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+    }
+
+    .navbar {
+        margin: 0px 0 0 25px;
+    }
+
+    .contactButton {
+        display: none;
+    }
+
+    .main-theme {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .navbar-image{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+}

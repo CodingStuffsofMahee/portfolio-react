@@ -1,0 +1,407 @@
+#intro-section,
+#projects-section,footer {
+    background-color: #F0F2F5;
+    padding-bottom: 25px;
+}
+
+.mainPage-content {
+    padding-top: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* margin-top: 10rem; */
+}
+
+.profileImg {
+    height: 245px;
+    width: 245px;
+    border-radius: 100%;
+    /* border: 2px solid #161513; */
+    box-shadow: 10px 18px 166px 13px rgba(0,0,0,0.75);
+}
+.profileImg img{
+    width: inherit;
+}
+
+.intro {
+    width: 900px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.intro span,
+.qoutation,
+.project-title,
+.intrested-work,.title,.get-in-touch span{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.project-title {
+    text-align: left
+}
+
+.intro-title,
+.lst-line,.colored, .get-in-touch span {
+    background: -webkit-linear-gradient(45deg, #B16CEA, #E0649C, #FF765F);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grdaient-bg-btn {
+    background: -webkit-linear-gradient(180deg, #B16CEA, #E0649C, #FF765F);
+    border: 2px solid #161513;
+    color: #161513 !important;
+    font-weight: 500;
+}
+
+.lst-line-btn button {
+    width: 180px;
+    font-size: 17px;
+}
+
+
+.sub-heading {
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn-grp {
+    display: flex;
+    gap: 20px;
+}
+
+.contact {
+    outline: none;
+    border: none;
+    height: 60px;
+    width: 210px;
+    text-transform: uppercase;
+    background-color: #161513;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.no-bg {
+    background-color: transparent;
+    color: #161513;
+    border: 2px solid #161513;
+}
+
+#services-section,
+#projects-section,
+#workIntresed,.footer-content,#services-list-section,#conatct-section{
+    padding: 5rem 118px 5rem 118px;
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+
+
+}
+
+.lst-line {
+    display: inline-block;
+}
+
+.lst-line-btn {
+    position: absolute;
+    right: 118px;
+}
+
+.lstline-design {
+    display: flex;
+}
+
+p {
+    margin: 0;
+}
+
+p hr {
+    width: 4rem;
+    margin: 0;
+    height: 2px;
+    background: #161513;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+
+}
+
+#services-section hr {
+    height: 2px;
+    background-color: #161513;
+    margin: 0;
+}
+
+.quote-grp {
+    /* margin-bottom: 30px; */
+}
+
+.services {
+    height: 100px;
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Exo 2', sans-serif;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.services:hover {
+    background: -webkit-linear-gradient(360deg, #B16CEA, #E0649C, #FF765F);
+    color: #fff;
+}
+
+.arrow {
+    position: absolute;
+    right: 130px;
+}
+
+.line-2 {
+    padding-left: 5rem;
+}
+
+/* Project */
+.title-grp {
+    display: flex;
+}
+
+.project-title {
+    text-align: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.intro-project {
+    display: flex;
+    align-items: center;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.project {
+    height: 380px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 10px 10px 119px 4px #b18fcd;
+}
+
+.project-img {
+    width: inherit;
+    border-radius: 20px;
+}
+
+.project-img img {
+    width: inherit;
+    border-radius: 20px 20px 0 0;
+    height: 15rem;
+}
+
+.in-project-title {
+    font-size: 35px;
+    width: 100%;
+}
+
+.proj-desc {
+    padding: 30px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.intrested-work {
+    background: -webkit-linear-gradient(180deg, #B16CEA, #E0649C, #FF765F);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 0 0 70px 70px;
+    padding: 30px 0 40px 0;
+
+}
+
+.intrested-work p {
+    font-size: 60px;
+    line-height: 5rem;
+}
+
+.pad-ins-btn {
+    margin-top: 20px;
+}
+
+.ins-btn {
+    outline: none;
+    border: none;
+    height: 60px;
+    width: 210px;
+    text-transform: uppercase;
+    background-color: #161513;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+
+
+}
+.footer hr{
+    margin: 0px 118px 0 118px;
+    height: 2px;
+    background: #161513;
+
+}
+.footer{
+    padding-top: 17rem;
+
+}
+
+ .intrested-work{
+    padding-bottom: 0;
+    margin-bottom: -250px;
+}
+
+@media screen and (max-width:900px) {
+    .mainPage-content {
+        /* padding-top: 5rem; */
+    }
+
+    .intro {
+        width: 100%;
+        text-align: left;
+
+    }
+
+    #intro-section,
+    #services-section,
+    #projects-section,
+    #workIntresed, .footer-content,#services-list-section,#conatct-section {
+        padding: 2rem 20px 50px 20px;
+    }
+    #intro-section{
+        padding-top: 0;
+    }
+
+    .intro span {
+        text-align: left;
+        font-size: 35px;
+
+    }
+
+    .btn-grp {
+        flex-direction: column;
+    }
+
+    .sub-heading {
+        text-align: left;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .contact {
+        font-size: 15px;
+        font-weight: 700;
+        color: #161513;
+        background: -webkit-linear-gradient(180deg, #B16CEA, #E0649C, #FF765F);
+
+    }
+
+    .no-bg {
+        background: transparent;
+    }
+
+    .left-slign-mobile {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #services-section {
+        padding: 2rem 20px 2rem 20px;
+        gap: 2.5rem;
+    }
+
+    .lst-line-btn {
+        position: static;
+    }
+
+    .lstline-design {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .qoutation {
+        font-size: 30px;
+    }
+
+    .line-2 {
+        padding-left: 1rem;
+    }
+
+    p hr {
+        bottom: 7px;
+    }
+
+    .lst-line-btn button {
+        width: 160px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .services {
+        font-size: 20px;
+        height: 80px;
+    }
+
+    .arrow {
+        right: 50px;
+    }
+
+    .title-grp {
+        gap: 20px;
+    }
+
+    .project {
+        width: 250px;
+        height: 320px;
+    }
+
+    .project-img img {
+        height: 11rem;
+    }
+
+    .in-project-title {
+        font-size: 30px;
+    }
+
+    .intrested-work p {
+        font-size: 35px;
+        line-height: 3rem;
+    }
+    .footer hr{
+        margin: 0 20px 0 20px;
+    }
+    .title-grp{
+        flex-direction: column;
+    }
+    #services-list-section,#projects-section,#conatct-section{
+        padding-top: 0;
+    }
+
+
+}

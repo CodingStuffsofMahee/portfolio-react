@@ -1,0 +1,89 @@
+.Services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.services-div,
+.text-part,
+.reverse-div {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.text-part {
+    flex-direction: column;
+}
+
+.services-div {
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.reverse-div {
+    flex-direction: row-reverse;
+    gap: 10rem;
+}
+
+.sub-title {
+    font-size: 20px;
+}
+
+.serviceImage {
+    width: 500px;
+    height: 500px;
+}
+
+.serviceImage img {
+    width: inherit;
+}
+
+.hire-me {
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 150px;
+    text-transform: uppercase;
+    color: #fff !important;
+    border-radius: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:900px) {
+
+    .services-div,
+    .reverse-div {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .serviceImage {
+        width: 250px;
+        height: 250px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    .reverse-div {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
