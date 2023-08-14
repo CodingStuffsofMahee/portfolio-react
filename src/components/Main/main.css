@@ -19,7 +19,7 @@ footer {
     height: 245px;
     width: 245px;
     border-radius: 100%;
-    box-shadow: 15px 15px 70px 8px #a570cf;
+    box-shadow: 0px 0px 20px 10px #a570cf;
 
 }
 
@@ -204,15 +204,15 @@ p hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .project {
     height: 380px;
     width: 350px;
-    border-radius: 20px;
+    border-radius: 135px;
     background-color: #fff;
-    box-shadow: 10px 10px 119px 4px #b18fcd;
+    box-shadow: 10px 15px 30px 1px #b18fcd;
 }
 
 .project-img {
