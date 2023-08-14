@@ -1,5 +1,6 @@
 #intro-section,
-#projects-section,footer {
+#projects-section,
+footer {
     background-color: #F0F2F5;
     padding-bottom: 25px;
 }
@@ -18,10 +19,11 @@
     height: 245px;
     width: 245px;
     border-radius: 100%;
-    /* border: 2px solid #161513; */
-    box-shadow: 10px 18px 166px 13px rgba(0,0,0,0.75);
+    box-shadow: 15px 15px 150px 23px #a570cf;
+
 }
-.profileImg img{
+
+.profileImg img {
     width: inherit;
 }
 
@@ -34,7 +36,9 @@
 .intro span,
 .qoutation,
 .project-title,
-.intrested-work,.title,.get-in-touch span{
+.intrested-work,
+.title,
+.get-in-touch span {
     font-family: 'Exo 2', sans-serif;
     font-size: 60px;
     font-weight: 700;
@@ -46,7 +50,9 @@
 }
 
 .intro-title,
-.lst-line,.colored, .get-in-touch span {
+.lst-line,
+.colored,
+.get-in-touch span {
     background: -webkit-linear-gradient(45deg, #B16CEA, #E0649C, #FF765F);
     -webkit-background-clip: text;
     background-clip: text;
@@ -97,7 +103,10 @@
 
 #services-section,
 #projects-section,
-#workIntresed,.footer-content,#services-list-section,#conatct-section{
+#workIntresed,
+.footer-content,
+#services-list-section,
+#conatct-section {
     padding: 5rem 118px 5rem 118px;
     display: flex;
     gap: 5rem;
@@ -105,7 +114,9 @@
 
 
 }
-#services-list-section,#conatct-section{
+
+#services-list-section,
+#conatct-section {
     padding-top: 0;
 }
 
@@ -251,21 +262,23 @@ p hr {
 }
 
 
-.footer hr{
+.footer hr {
     margin: 0px 118px 0 118px;
     height: 2px;
     background: #161513;
 
 }
-.footer{
+
+.footer {
     padding-top: 17rem;
 
 }
 
- .intrested-work{
+.intrested-work {
     padding-bottom: 0;
     margin-bottom: -250px;
 }
+
 .ins-btn {
     outline: none;
     border: none;
@@ -277,9 +290,11 @@ p hr {
     border-radius: 50px;
     font-size: 20px;
 }
-.ins-btn a{
+
+.ins-btn a {
     color: #fff;
 }
+
 @media screen and (max-width:900px) {
     .mainPage-content {
         /* padding-top: 5rem; */
@@ -294,10 +309,15 @@ p hr {
     #intro-section,
     #services-section,
     #projects-section,
-    #workIntresed, .footer-content,#services-list-section,#conatct-section,.webpage {
+    #workIntresed,
+    .footer-content,
+    #services-list-section,
+    #conatct-section,
+    .webpage {
         padding: 2rem 20px 50px 20px;
     }
-    #intro-section{
+
+    #intro-section {
         padding-top: 0;
     }
 
@@ -397,13 +417,18 @@ p hr {
         font-size: 35px;
         line-height: 3rem;
     }
-    .footer hr{
+
+    .footer hr {
         margin: 0 20px 0 20px;
     }
-    .title-grp{
+
+    .title-grp {
         flex-direction: column;
     }
-    #services-list-section,#projects-section,#conatct-section{
+
+    #services-list-section,
+    #projects-section,
+    #conatct-section {
         padding-top: 0;
     }
 
