@@ -49,7 +49,7 @@ input,textarea {
 
 }
 
-#email,#amount,#name,#messagep{
+#email,#amount,#name{
     background-size: 45px 35px;
     padding-left: 55px;
     max-width: 100%;
@@ -71,9 +71,7 @@ textarea{
     width: 180px;
     font-size: 17px;
 }
-/* #message{
-    background: #F0F2F5 url('./message-solid.svg') left no-repeat  ;
-} */
+
 @media screen and (max-width:900px) {
     .main-box{
         flex-direction: column;
@@ -97,7 +95,7 @@ textarea{
         margin-right: 10px;
         
     }
-    #email,#amount{
+    #email,#amount,#name{
         background-size: 20px;
         padding-left: 10px;
         background: none;
