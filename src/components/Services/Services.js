@@ -26,7 +26,7 @@ function Services() {
     <>
       <section id='services-list-section'>
         <div className='Services-list'>
-          <div className='title'><span>Our</span><span className='title colored'> Services</span>
+          <div className='title service-head-title'><span>Our</span><span className='title service-head-title colored'> Services</span>
           </div>
           {services.map((ele, ind) => {
             return (
