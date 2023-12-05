@@ -63,13 +63,20 @@
         gap: 2rem;
     }
     .second-nav{
-        align-items: unset;
+        width: 100%;
+        align-items: center;
         gap: 2rem;
     }
     .first-nav{
         gap: 2rem;
+        flex-direction: row;
+        width: 100%;
+
     }
     hr{
         margin: 0 ;
+    }
+    .copyright{
+        padding-top: 12px;
     }
 }

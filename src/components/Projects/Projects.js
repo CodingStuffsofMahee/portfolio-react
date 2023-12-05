@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import "./project.css"
 import { Link } from 'react-router-dom'
@@ -42,7 +41,7 @@ function Projects() {
       <section id='projects-section ' className='webpage'>
 
         <div className='title-grp webpage-tile'>
-          <div className='project-title'>
+          <div className='project-head-title'>
             <span>Looks at my </span>
             <span className='intro-title '>
               Projects

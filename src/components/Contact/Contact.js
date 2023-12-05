@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import './contact.css'
 
@@ -19,7 +18,7 @@ function Contact() {
           <div className='form-div'>
             <form action="mailto:maheepgupta321+portfolioWebsite@gmail.com"
               method="POST"
-              enctype="multipart/form-data"
+              encType="multipart/form-data"
               name="EmailForm">
               <label htmlFor='name'>
                 Your Name

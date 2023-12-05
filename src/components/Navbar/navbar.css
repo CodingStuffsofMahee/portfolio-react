@@ -10,6 +10,7 @@ a{
     margin: 0px 118px 0 118px;
     display: flex;
     gap: 30px;
+    
 
 }
 
@@ -66,8 +67,12 @@ a{
     right: 5px;
     top: 70px;
     transition: 0.5s;
-    background: -webkit-linear-gradient(45deg, #B16CEA, #E0649C, #FF765F);
-
+    background: -webkit-linear-gradient(45deg, #bb7eec, #e47aaa, #fe8a75);
+    background-blend-mode: darken;
+}
+.mobile a{
+    color: #fff;
+    font-weight: 500;
 }
 
 .main-theme {
@@ -104,6 +109,7 @@ a{
         align-items: center;
         flex-direction: row;
         width: 100%;
+        padding-right: 1.5rem;
     }
 
 }

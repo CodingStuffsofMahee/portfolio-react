@@ -16,7 +16,7 @@ function Navbar() {
             <div className='navbar'>
 
                 <div className='navbar-image'>
-                    <span>Maheep Gupta</span> {isMobile ? <i class="fa-solid fa-xmark fa-xl ham" onClick={toggleHam}></i> : <i className="fa fa-bars fa-xl ham" aria-hidden="true" onClick={toggleHam}></i>}</div>
+                    <span>Maheep Gupta</span> {isMobile ? <i className="fa-solid fa-xmark fa-xl ham" onClick={toggleHam}></i> : <i className="fa fa-bars fa-xl ham" aria-hidden="true" onClick={toggleHam}></i>}</div>
                 <div className='navbar-content desktop'>
                     <Link to="/"><span>Home</span></Link>
                     <Link to="/services"><span>Services</span></Link>

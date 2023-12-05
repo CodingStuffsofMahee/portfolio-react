@@ -35,6 +35,7 @@ footer {
 
 .intro span,
 .qoutation,
+.project-head-title,
 .project-title,
 .intrested-work,
 .title,
@@ -322,6 +323,7 @@ p hr {
 
     #intro-section {
         padding-top: 0;
+        background: none;
     }
 
     .intro span {
@@ -429,11 +431,10 @@ p hr {
     .title-grp {
         flex-direction: column;
     }
-
-    #services-list-section,
-    #projects-section,
-    #conatct-section {
-        padding-top: 0;
+    .project-head-title{
+        font-size: 30px;
+        flex-direction: row;
+        gap: 0.5rem;
     }
 
 

@@ -1,7 +1,8 @@
 #projects-section {
     background-color: #fff;
 }
-.webpage{
+
+.webpage {
     padding: 0rem 118px 5rem 118px;
 }
 
@@ -23,60 +24,78 @@
     transition: 0.5s ease-in-out;
     border-radius: 20px;
 }
-.grdaient-bg-btn a{
+
+.grdaient-bg-btn a {
     color: #fff;
 }
+
 .project:hover {
     .full-desc {
         transition: 0.5s ease-in-out;
         display: inline-block;
-        animation: mymove 1s ease-in-out ;
+        animation: mymove 1s ease-in-out;
     }
 }
-.project{
+
+.project {
     height: 420px;
 }
-.webpage-tile{
+
+.webpage-tile {
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
-.webpage-list{
+
+.webpage-list {
     padding-top: 20px;
 }
 
 @keyframes mymove {
     from {
-        bottom: 10rem;}
+        bottom: 10rem;
+    }
+
     to {
-        bottom: 23rem;}
-  }
+        bottom: 23rem;
+    }
+}
 
+@keyframes mymove {
+    from {
+        bottom: 7rem;
+    }
 
-  @media screen and (max-width:900px) {
-    .full-desc{
+    to {
         bottom: 19rem;
     }
-    .full-desc span{
+}
+
+@media screen and (max-width:900px) {
+    .full-desc {
+        bottom: 19rem;
+    }
+
+    .full-desc span {
         font-size: 18px;
     }
-    @keyframes mymove {
-        from {
-            bottom: 7rem;}
-        to {
-            bottom: 19rem;}
-    }
-    .project{
+
+    .project {
         height: 375px;
     }
-    .hire-me{
+
+    .hire-me {
         font-size: 18px;
         width: 100px;
         height: 40px;
     }
-    .webpage{
+
+    .webpage {
         padding: 0rem 20px 50px 20px;
     }
-    
+    .webpage-tile{
+        padding-top: 3rem;
+        align-items: center;
+    }
 
-  }
- 
+
+}
