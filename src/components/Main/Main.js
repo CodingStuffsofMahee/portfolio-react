@@ -10,36 +10,43 @@ function Main() {
     const services = ["Website Making", "UI/UX Development", "API Developemnt", "Web Design"]
     const projectJson = [
         {
-            name: "Weather App",
-            desc: "API based React App",
-            url: "https://weather-forecast-maheep-gupta.netlify.app/",
-            fulldesc: "Stay informed with a React-powered weather app using Weather Me API, providing real-time and 3-hourly forecasts for your location."
+          name: "Evento",
+          desc: "React App",
+          url: "https://evento-cme.vercel.app/home",
+          fulldesc: "Admins create events via admin dashboard. Students view, join events, and see their participation history. Login details: ID: 2102820100026, Pass: 12345687. "
         },
         {
-            name: "WhatsApp connect",
-            desc: "React App",
-            url: "https://whatsapp-quick-connect.netlify.app/",
-            fulldesc: "Seamlessly chat on WhatsApp without saving numbers. Our React-based app simplifies connecting, letting you message contacts hassle-free. Privacy meets convenience."
+          name: "Weather App",
+          desc: "API based React App",
+          url: "https://weather-forecast-maheep-gupta.netlify.app/",
+          fulldesc: "Stay informed with a React-powered weather app using Weather Me API, providing real-time and 3-hourly forecasts for your location."
         },
         {
-            name: "Text Utlis",
-            desc: "React App",
-            url: "https://text-utlis-by-maheep-gupta.netlify.app/",
-            fulldesc: "React-based Text Utils app: Count, convert case, and switch themes. Effortlessly manage text with character count and uppercase/lowercase options."
+          name: "WhatsApp connect",
+          desc: "React App",
+          url: "https://whatsapp-quick-connect.netlify.app/",
+          fulldesc: "Seamlessly chat on WhatsApp without saving numbers. Our React-based app simplifies connecting, letting you message contacts hassle-free. Privacy meets convenience."
         },
         {
-            name: "Tic tac Toe",
-            desc: "HTMl CSS JS bsed game",
-            url: "https://portfolio-maheep-gupta.web.app/ResourcesUsed/AdditionalFiles/Tic-Tac-Toe/main.html",
-            fulldesc: "Enjoy classic offline two-player fun with our HTML, CSS, and JS Tic Tac Toe game. Unleash strategic moves anywhere!"
+          name: "Text Utlis",
+          desc: "React App",
+          url: "https://text-utlis-by-maheep-gupta.netlify.app/",
+          fulldesc: "React-based Text Utils app: Count, convert case, and switch themes. Effortlessly manage text with character count and uppercase/lowercase options."
         },
         {
-            name: "CSS Generators",
-            desc: "React App",
-            url: "https://css-gradient-generator-maheep-gupta.netlify.app/",
-            fulldesc: "Effortlessly create stunning effects with our CSS generator. Craft gradient backgrounds and stylish box shadows using automatically generated code."
+          name: "Tic tac Toe",
+          desc: "HTMl CSS JS bsed game",
+          url: "https://portfolio-maheep-gupta.web.app/ResourcesUsed/AdditionalFiles/Tic-Tac-Toe/main.html",
+          fulldesc: "Enjoy classic offline two-player fun with our HTML, CSS, and JS Tic Tac Toe game. Unleash strategic moves anywhere!"
+        },
+        {
+          name: "CSS Generators",
+          desc: "React App",
+          url: "https://css-gradient-generator-maheep-gupta.netlify.app/",
+          fulldesc: "Effortlessly create stunning effects with our CSS generator. Craft gradient backgrounds and stylish box shadows using automatically generated code."
         }
-    ]
+    
+      ]
     return (
         <>
 
