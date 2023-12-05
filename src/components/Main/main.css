@@ -187,6 +187,7 @@ p hr {
 /* Project */
 .title-grp {
     display: flex;
+    justify-content: space-around;
 }
 
 .project-title {
