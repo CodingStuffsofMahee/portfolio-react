@@ -90,7 +90,7 @@ textarea{
     .form-div{
         width: 100%;
     }
-    input{
+    input,textarea{
         padding-left: 10px;
         margin-right: 10px;
         
