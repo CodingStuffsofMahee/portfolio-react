@@ -6,6 +6,12 @@ import { Link } from 'react-router-dom'
 function Projects() {
   const projectJson = [
     {
+      name: "Evento",
+      desc: "React App",
+      url: "https://evento-cme.vercel.app/home",
+      fulldesc: "Admins create events via admin dashboard. Students view, join events, and see their participation history. Login details: ID: 2102820100026, Pass: 12345687. "
+    },
+    {
       name: "Weather App",
       desc: "API based React App",
       url: "https://weather-forecast-maheep-gupta.netlify.app/",
@@ -35,6 +41,7 @@ function Projects() {
       url: "https://css-gradient-generator-maheep-gupta.netlify.app/",
       fulldesc: "Effortlessly create stunning effects with our CSS generator. Craft gradient backgrounds and stylish box shadows using automatically generated code."
     }
+
   ]
   return (
     <>
