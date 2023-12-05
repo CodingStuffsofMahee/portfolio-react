@@ -7,7 +7,6 @@ function Contact() {
   return (
     <>
       <section id='conatct-section'>
-      <Navbar />
         <div className='main-box'>
           <div className='form-intro-part'>
             <div className='get-in-touch'>
@@ -36,7 +35,7 @@ function Contact() {
               </label>
               <label htmlFor='message'>
                 Message
-                <textarea required cols={50} rows={10} type='number' name='Gmail' id='message' placeholder='Message' />
+                <textarea required cols={50} rows={10} name='Gmail' id='message' placeholder='Message' />
               </label>
               <input type='submit' onSubmit={e=>e.target.reset()} className='submit-btn'/>
             </form>

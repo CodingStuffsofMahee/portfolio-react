@@ -6,15 +6,10 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     const [isMobile, setisMobile] = useState(false)
-    // const [themeToggle, setthemeToggle] = useState(false)
     const toggleHam = () => {
         setisMobile(!isMobile)
     }
-    // const swtichDark = () => {
-    //     setthemeToggle(!themeToggle)
-    //     document.body.style.backgroundColor = "#fff"
-    //     document.body.style.color = "#000"
-    // }
+
     return (
         <>
 
@@ -46,10 +41,7 @@ function Navbar() {
                         </span>
                     </span> */}
                 </div> : null}
-                <Link to="https://www.instagram.com/maheep__gupta/" target='_blank'>
-
-                    <div className='contactButton'><span>Let's Talk</span></div>
-                </Link>
+                <div className='contactButton' onClick={() => { window.location.href = 'https://www.linkedin.com/in/maheep-gupta-281867222/' }}><span>Let's Talk</span></div>
             </div>
 
 

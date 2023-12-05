@@ -1,6 +1,7 @@
 .main-box {
     display: flex;
     flex-direction: row;
+    gap: 5rem;
 }
 
 .sum span {
@@ -33,15 +34,22 @@ input,textarea {
     width:100%;
     border-radius: 10px;
     outline: none;
-    border: none;
+    /* border: none; */
     background-color: #F0F2F5;
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 20px;
 }
-#email,#amount{
+#email{
     background: #F0F2F5 url('./envelope-solid.svg') left no-repeat  ;
+}
+#name{
+    background: #F0F2F5 url('./user-solid.svg') left no-repeat  ;
+
+}
+
+#email,#amount,#name,#messagep{
     background-size: 45px 35px;
     padding-left: 55px;
     max-width: 100%;
@@ -63,6 +71,9 @@ textarea{
     width: 180px;
     font-size: 17px;
 }
+/* #message{
+    background: #F0F2F5 url('./message-solid.svg') left no-repeat  ;
+} */
 @media screen and (max-width:900px) {
     .main-box{
         flex-direction: column;

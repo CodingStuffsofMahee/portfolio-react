@@ -37,7 +37,8 @@
     height: 420px;
 }
 .webpage-tile{
-    padding-top: 20px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 .webpage-list{
     padding-top: 20px;

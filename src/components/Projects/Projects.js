@@ -40,10 +40,9 @@ function Projects() {
   return (
     <>
       <section id='projects-section ' className='webpage'>
-      <Navbar />
 
         <div className='title-grp webpage-tile'>
-          <div className='intro project-title'>
+          <div className='project-title'>
             <span>Looks at my </span>
             <span className='intro-title '>
               Projects

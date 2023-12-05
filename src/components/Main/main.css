@@ -99,7 +99,7 @@ footer {
     border: 2px solid #161513;
 }
 
-#services-section,
+#intro-section,#services-section,
 #projects-section,
 #workIntresed,
 .footer-content,
@@ -112,11 +112,14 @@ footer {
 
 
 }
-
-#services-list-section,
-#conatct-section {
+#intro-section{
     padding-top: 0;
 }
+
+/* #services-list-section,
+#conatct-section {
+    padding-top: 0;
+} */
 
 .lst-line {
     display: inline-block;
@@ -186,7 +189,6 @@ p hr {
 }
 
 .project-title {
-    text-align: left;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -236,6 +238,7 @@ p hr {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    text-align: center;
 }
 
 .intrested-work {

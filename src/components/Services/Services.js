@@ -26,7 +26,6 @@ function Services() {
   return (
     <>
       <section id='services-list-section'>
-        <Navbar />
         <div className='Services-list'>
           <div className='title'><span>Our</span><span className='title colored'> Services</span>
           </div>
