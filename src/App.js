@@ -6,6 +6,7 @@ import Services from './components/Services/Services';
 import { BrowserRouter } from 'react-router-dom';
 import Projects from './components/Projects/Projects';
 import Navbar from './components/Navbar/Navbar';
+import Blog from './components/Blog/Blog';
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" exact element={<Contact />} />
           <Route path="/services" exact element={<Services />} />
           <Route path="/projects" exact element={<Projects />} />
+          <Route path="/blogs" exact element={<Blog />} />
 
         </Routes>
       </BrowserRouter>
